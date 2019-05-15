@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/recode/Desktop/Marvel"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Marvel"
+	}
+}
