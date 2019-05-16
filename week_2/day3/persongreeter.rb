@@ -44,5 +44,8 @@ end
 # ======================================================================
 
 
+# puts 
+# print "What is your gender? "
+# gender=gets.chomp 
 
 

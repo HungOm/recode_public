@@ -2,10 +2,12 @@
 puts "This is great!"
 
 # morning = (1..12)
-def minut(a)
+def double_zero(a)
     if a == 0
         return a = "00"
     else
+        a
+    end
 end
 
 
@@ -15,14 +17,26 @@ hour = gets.chomp.to_i
 while hour >24 ||hour <0
     print "please enter a valid time: "
     hour = gets.chomp.to_i
+end
 
+# if hour == 0
+#     return hour ="0" + "0"
+#     puts hour
+# else
+#     hour
+# end
+
+
+puts "hEYYY #{hour}"
+# 
 print "Please enter minuts: "
 min = gets.chomp.to_i
 while min >60 || min<0
     print "please enter a valid time format: "
     min = gets.chomp.to_i
 end 
-minuts = minut min
+
+minuts = double_zero min
 puts minuts
 
 
@@ -63,8 +77,8 @@ end
 
 
 time = case hour
-    when 0..12 then "It's #{hour}"+":"+"#{minuts} AM in standard time!"
-    when 13..24 then "It's #{hours hour}"+":"+"#{minuts} PM in standard time!"
+    when 0..11 then "It's #{double_zero hour}"+":"+"#{minuts} AM in standard time!"
+    when 12..24 then "It's #{hours hour}"+":"+"#{minuts} PM in standard time!"
     else "Invalid times format!"
 end
 
